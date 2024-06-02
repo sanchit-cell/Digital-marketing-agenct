@@ -1,0 +1,318 @@
+.home{
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 50px;
+}
+.award{
+    padding-bottom: 20%;
+    padding-top: 20%;
+    padding-right: 1%;
+    padding-left: 0%;
+    
+}
+.service-section{
+    margin-top: 50px;
+    background-color: #dcdcdc89;
+    padding-top: 10px;
+    
+}
+.services{
+    padding-left: 0%;
+    
+}
+.btn-contact {
+    background-color: #ff3366;
+    color: white;
+}
+.btn-contact:hover {
+    background-color: #ff6680;
+}
+
+/* carousal */
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+.hover-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 93%;
+    background-color: #ff3366;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.image:hover .hover-overlay {
+    display: flex;
+}
+.read-more-btn {
+    background-color: white;
+    color: #ff3366;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.read-more-btn:hover {
+    background-color: #ff6680;
+    color: white;
+}
+.image{
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+/* indicators */
+.carousel-indicators {
+    position: absolute;
+    top: 515px; /* Adjust as needed */
+    left: 10px; /* Align to the left */
+    width: 50px;
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-indicators button {
+    background-color: #fff; /* Default dot color */
+    border: 2px solid #888; /* Dot border color */
+    width: 1px; /* Dot size */
+    height: 20px; /* Dot size */
+    border-radius: 50%; /* Make it a circle */
+    margin-right: 5px; /* Space between dots */
+    opacity: 0.5;
+    transition: background-color 0.3s, border-color 0.3s, opacity 0.3s;
+}
+
+.carousel-indicators button.active,
+.carousel-indicators button:hover {
+    background-color: red; /* Active and hover dot color */
+    border-color: palevioletred; /* Active and hover border color */
+    opacity: 1;
+}
+
+/* why we best  */
+#project-image {
+    width: 100%;
+    height: auto;
+  }
+  .project-content {
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+  }
+  .project-content:hover {
+    background-color: red;
+    color: white;
+  }
+  .project-content h4, .project-content p {
+    color: #333;
+  }
+  .project-content:hover h4, .project-content:hover p {
+    color: white;
+  }
+
+  /* .borderless-card {
+    border: none;
+  } */
+  
+  /* gROWTH   */
+  .growth{
+    background-color: #dcdcdc89;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+
+  .card-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Add margin between cards */
+}
+
+.borderless-card {
+    border: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition for hover effect */
+    margin-bottom: 20px; /* Ensure spacing at the bottom */
+    text-align: center; /* Center align text */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow by default */
+}
+
+.borderless-card:hover {
+    transform: translateY(-10px); /* Slightly lift the card */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Add a more prominent shadow on hover */
+}
+
+/* footer  */
+.bottom-container {
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+    padding-top: 80px;
+    background-color: rgba(255, 0, 0, 0.727);
+   
+}
+
+
+
+.footer-link {
+    
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px; /* Adjust size as needed */
+    color: #333; /* Adjust color as needed */
+}
+
+/* popup form :
+ */
+ 
+ .modal-content {
+    padding: 20px;
+    border: none;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.floating-label {
+    position: absolute;
+    pointer-events: none;
+    left: 15px;
+    top: 10px;
+    transition: 0.2s ease all;
+    opacity: 0.5;
+}
+
+.floating-input {
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.floating-input:focus::placeholder {
+    opacity: 0;
+}
+
+.floating-input:not(:placeholder-shown) + .floating-label,
+.floating-input:focus + .floating-label {
+    top: -10px;
+    left: 10px;
+    font-size: 0.75rem;
+    opacity: 1;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
+    z-index: 10;
+}
+
+.form-control:focus {
+    border-color: #ff007b;
+    box-shadow: none;
+}
+
+.close {
+    border: none;
+    background: none;
+}
+
+.inputBox {
+    position: relative;
+    width: 100%;
+}
+
+.inputBox span {
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    font-size: 1em;
+    color: #8f8f8f;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.inputBox input:valid ~ span,
+.inputBox input:focus ~ span,
+.inputBox textarea:valid ~ span,
+.inputBox textarea:focus ~ span {
+    /* color: #45f3ff; */
+    transform: translateX(0px) translateY(-3px);
+    font-size: 0.75em;
+}
+
+.inputBox i {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    /* background: #ff007b; */
+    transition: 0.5s;
+    pointer-events: none;
+    z-index: 9;
+}
+
+.inputBox input:valid ~ i,
+.inputBox input:focus ~ i,
+.inputBox textarea:valid ~ i,
+.inputBox textarea:focus ~ i {
+    height: 44px;
+}
+
+button[type="submit"]
+{  
+   
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-top: 10px;
+    background: #ff007b;
+    padding: 11px 25px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+input[type="checkbox"]:checked{
+    color: #ff007b;
+    
+
+}
+
+
+button[type="submit"]:active{
+    opacity: 0.8;
+}
+
+button[type="submit"]:hover{
+    box-shadow: 0 0 20px rgb(255, 0, 115);
+    background: #ff007b;
+}
+
+  
+
+
+
+
+

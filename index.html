@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Marketing Agency</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/abcfa17ced.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid home">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <div class="award">
+            <h4 class="text-danger">AWARD WINNING</h4>
+            <br />
+            <h1 class="font-weight-bold">DIGITAL MARKETING<br />AGENCY</h1>
+            <br />
+
+            <p>
+              Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+              Pellentesque vitae ante et elit fringilla ac at purus. Morbi sed
+              lacus nec risus finibus feugiat et fermentum.
+            </p>
+            <button class="btn btn-contact" id="contactBtn">Contact Us</button>
+            <!-- <button
+              class="btn btn-contact"
+              data-toggle="modal"
+              data-target="#contactModal"
+            >
+              Contact Us
+            </button> -->
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <img
+            src="./image/Screenshot 2024-06-01 101746.jpg"
+            alt=""
+            style="height: 500px; width: 400px"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="contactModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Talk to us</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <form
+              id="contactForm"
+              action="https://getform.io/f/jbwxzwwa"
+              method="POST"
+            >
+              <div class="form-group inputBox">
+                <input
+                  type="email"
+                  class="form-control floating-input"
+                  id="workEmail"
+                  name="workEmail"
+                  required
+                  placeholder=" "
+                />
+                <span class="floating-label">Work email</span>
+                <i></i>
+              </div>
+              <div class="row">
+                <div class="col-md-6 form-group inputBox">
+                  <input
+                    type="text"
+                    class="form-control floating-input"
+                    id="firstName"
+                    name="firstName"
+                    required
+                    placeholder=" "
+                  />
+                  <span class="floating-label">First Name</span>
+                  <i></i>
+                </div>
+                <div class="col-md-6 form-group inputBox">
+                  <input
+                    type="text"
+                    class="form-control floating-input"
+                    id="lastName"
+                    name="lastName"
+                    required
+                    placeholder=" "
+                  />
+                  <span class="floating-label">Last name</span>
+                  <i></i>
+                </div>
+              </div>
+              <div class="form-group form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="termsCheck"
+                  required
+                />
+                <label class="form-check-label" for="termsCheck"
+                  >I agree to Fyle's terms and conditions, and provide consent
+                  to send me communication.</label
+                >
+              </div>
+              <button type="submit" class="btn btn-primary">Contact Us</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-section">
+      <div class="home">
+        <div class="container services">
+          <h6 class="text-danger">WHAT WE DO</h6>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="font-weight-bold">SERVICES PROVIDE<br />FOR YOU</h2>
+          </div>
+          <div class="col-lg-6" style="padding-top: 10px">
+            <p>
+              Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
+              Pellentesque vitae ante et elit fringilla ac at purus. Morbi sed
+              lacus nec risus finibus feugiat et fermentum.
+            </p>
+          </div>
+        </div>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" style="height: 40%">
+              <div class="row">
+                <div class="col-md-4 position-relative image">
+                  <img
+                    src="./image/1.jpg"
+                    alt="Service 1"
+                    style="margin-bottom: 20px; width: 100%; height: 500px"
+                  />
+                  <div class="hover-overlay">
+                    <div class="">
+                      <h4>WEB DEVELOPMENT</h4>
+                      <p>
+                        Morbi sed lacus nec risus finibus feugiat et fermentum
+                        nibh. Pellentesque
+                      </p>
+                      <a
+                        href="https://www.fylehq.com"
+                        target="_blank"
+                        class="read-more-btn"
+                        >READ MORE</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 position-relative image">
+                  <img
+                    src="./image/2.jpg"
+                    alt="Service 2"
+                    style="margin-bottom: 20px; width: 100%; height: 500px"
+                  />
+                  <div class="hover-overlay">
+                    <div class="">
+                      <h4>WEB DEVELOPMENT</h4>
+                      <p>
+                        Morbi sed lacus nec risus finibus feugiat et fermentum
+                        nibh. Pellentesque
+                      </p>
+                      <a
+                        href="https://www.fylehq.com"
+                        target="_blank"
+                        class="read-more-btn"
+                        >READ MORE</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 position-relative image">
+                  <img
+                    src="./image/1.jpg"
+                    alt="Service 3"
+                    style="margin-bottom: 20px; width: 100%; height: 500px"
+                  />
+                  <div class="hover-overlay">
+                    <div>
+                      <h4>WEB DEVELOPMENT</h4>
+                      <p>
+                        Morbi sed lacus nec risus finibus feugiat et fermentum
+                        nibh. Pellentesque
+                      </p>
+                      <a
+                        href="https://www.fylehq.com"
+                        target="_blank"
+                        class="read-more-btn"
+                        >READ MORE</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" style="height: 40%">
+              <div class="row">
+                <div class="col-md-4 position-relative image">
+                  <img
+                    src="./image/1.jpg"
+                    alt="Service 1"
+                    style="margin-bottom: 20px; width: 100%; height: 500px"
+                  />
+                  <div class="hover-overlay">
+                    <div class="">
+                      <h4>WEB DEVELOPMENT</h4>
+                      <p>
+                        Morbi sed lacus nec risus finibus feugiat et fermentum
+                        nibh. Pellentesque
+                      </p>
+                      <a
+                        href="https://www.fylehq.com"
+                        target="_blank"
+                        class="read-more-btn"
+                        >READ MORE</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 position-relative image">
+                  <img
+                    src="./image/2.jpg"
+                    alt="Service 2"
+                    style="margin-bottom: 20px; width: 100%; height: 500px"
+                  />
+                  <div class="hover-overlay">
+                    <div class="">
+                      <h4>WEB DEVELOPMENT</h4>
+                      <p>
+                        Morbi sed lacus nec risus finibus feugiat et fermentum
+                        nibh. Pellentesque
+                      </p>
+                      <a
+                        href="https://www.fylehq.com"
+                        target="_blank"
+                        class="read-more-btn"
+                        >READ MORE</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 position-relative image">
+                  <img
+                    src="./image/1.jpg"
+                    alt="Service 3"
+                    style="margin-bottom: 20px; width: 100%; height: 500px"
+                  />
+                  <div class="hover-overlay">
+                    <div>
+                      <h4>WEB DEVELOPMENT</h4>
+                      <p>
+                        Morbi sed lacus nec risus finibus feugiat et fermentum
+                        nibh. Pellentesque
+                      </p>
+                      <a
+                        href="https://www.fylehq.com"
+                        target="_blank"
+                        class="read-more-btn"
+                        >READ MORE</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" style="height: 40%">
+              <div class="row">
+                <div class="col-md-4 position-relative image">
+                  <img
+                    src="./image/1.jpg"
+                    alt="Service 1"
+                    style="margin-bottom: 20px; width: 100%; height: 500px"
+                  />
+                  <div class="hover-overlay">
+                    <div class="">
+                      <h4>WEB DEVELOPMENT</h4>
+                      <p>
+                        Morbi sed lacus nec risus finibus feugiat et fermentum
+                        nibh. Pellentesque
+                      </p>
+                      <a
+                        href="https://www.fylehq.com"
+                        target="_blank"
+                        class="read-more-btn"
+                        >READ MORE</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 position-relative image">
+                  <img
+                    src="./image/2.jpg"
+                    alt="Service 2"
+                    style="margin-bottom: 20px; width: 100%; height: 500px"
+                  />
+                  <div class="hover-overlay">
+                    <div class="">
+                      <h4>WEB DEVELOPMENT</h4>
+                      <p>
+                        Morbi sed lacus nec risus finibus feugiat et fermentum
+                        nibh. Pellentesque
+                      </p>
+                      <a
+                        href="https://www.fylehq.com"
+                        target="_blank"
+                        class="read-more-btn"
+                        >READ MORE</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 position-relative image">
+                  <img
+                    src="./image/1.jpg"
+                    alt="Service 3"
+                    style="margin-bottom: 20px; width: 100%; height: 500px"
+                  />
+                  <div class="hover-overlay">
+                    <div>
+                      <h4>WEB DEVELOPMENT</h4>
+                      <p>
+                        Morbi sed lacus nec risus finibus feugiat et fermentum
+                        nibh. Pellentesque
+                      </p>
+                      <a
+                        href="https://www.fylehq.com"
+                        target="_blank"
+                        class="read-more-btn"
+                        >READ MORE</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button> -->
+        </div>
+      </div>
+    </div>
+    <div class="home">
+      <div class="container text-center">
+        <h5 style="color: red" class="my-4">WHY CHOOSE US</h5>
+        <h2>WHY WE ARE BEST</h2>
+
+        <div class="card-group" style="padding-top: 20px">
+          <div class="card borderless-card">
+            <img
+              src="./image/6.jpg"
+              class="card-img-top"
+              alt="..."
+              style="width: 100%; height: 100px"
+            />
+            <div class="card-body"  style="text-align: left; padding-left: 0; padding-right: 0;">
+              <h6 class="card-title">Clarified vision and Target</h6>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod
+              </p>
+            </div>
+          </div>
+          <div class="card borderless-card">
+            <img
+              src="./image/7.jpg"
+              class="card-img-top"
+              alt="..."
+              style="width: 100%; height: 100px"
+            />
+            <div class="card-body " >
+              <h6 class="card-title">High Performance</h6>
+              <p class="card-text " style="text-align: left;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod
+              </p>
+            </div>
+          </div>
+          <div class="card borderless-card">
+            <img
+              src="./image/8.jpg"
+              class="card-img-top"
+              alt="..."
+              style="width: 100%; height: 100px"
+            />
+            <div class="card-body"  style="text-align: left;">
+              <h6 class="card-title">Maintain Security</h6>
+              <p class="card-text"  style="text-align: left;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod
+              </p>
+            </div>
+          </div>
+          <div class="card borderless-card">
+            <img
+              src="./image/9.jpg"
+              class="card-img-top"
+              alt="..."
+              style="width: 100%; height: 100px"
+            />
+            <div class="card-body " style="text-align: left; padding-left: 0; padding-right: 0;">
+              <h6 class="card-title">Bettet Strategy and Quality</h6>
+              <p class="card-text"  style="text-align: left;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Our Projects  -->
+    <div class="home">
+      <div class="container text-center">
+        <h5 style="color: red" class="my-4">OUR PROJECT</h5>
+        <h2>WHY WE ARE BEST</h2>
+        <div class="row mt-4">
+          <div class="col-md-8">
+            <img id="project-image" src="./image/5.jpg" alt="Project Image" />
+          </div>
+          <div class="col-md-4">
+            <div class="project-content" data-image="./image/5.jpg">
+              <h5>Genderless Kei – Japan's Hot</h5>
+              <p>
+                Set to launch on the manufacturer's new A330neo aircraft in
+                2017, it's offering lots of...
+              </p>
+            </div>
+            <div class="project-content" data-image="./image/5.jpg">
+              <h5>Better Strategy & Quality</h5>
+              <p>
+                Set to launch on the manufacturer's new A330neo aircraft in
+                2017, it's offering lots of...
+              </p>
+            </div>
+            <div class="project-content" data-image="">
+              <h5>Genderless Kei – Japan's Hot</h5>
+              <p>
+                Set to launch on the manufacturer's new A330neo aircraft in
+                2017, it's offering lots of...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- company growt  -->
+    <div class="growth">
+      <div class="home">
+        <div class="container text-center">
+          <h5 style="color: red" class="my-4">EXPERTS GROWTHS</h5>
+          <h2>OUR COMPANY GROWTH</h2>
+
+          <div class="" style="margin-top: 30px">
+            <div class="card-group">
+              <div class="card borderless-card">
+                <i class="fas fa-heart" style="font-size: 35px; color: red"></i>
+                <div class="card-body">
+                  <h2 class="card-title">199+</h2>
+                  <p class="card-text">Staticfied Customers</p>
+                </div>
+              </div>
+              <div class="card borderless-card">
+                <i class="fas fa-clock" style="font-size: 35px; color: red"></i>
+                <div class="card-body">
+                  <h2 class="card-title">1591+</h2>
+                  <p class="card-text">Days of Operation</p>
+                </div>
+              </div>
+              <div class="card borderless-card">
+                <i
+                  class="fas fa-check-circle"
+                  style="font-size: 35px; color: red"
+                ></i>
+                <div class="card-body">
+                  <h2 class="card-title">283+</h2>
+                  <p class="card-text">Complete Project</p>
+                </div>
+              </div>
+              <div class="card borderless-card">
+                <i
+                  class="fas fa-trophy"
+                  style="font-size: 35px; color: red"
+                ></i>
+                <div class="card-body">
+                  <h2 class="card-title">75+</h2>
+                  <p class="card-text">Win Awards</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CLients feedback -->
+    <div class="home">
+      <div
+        class="container text-center"
+        style="padding-left: 20%; padding-right: 20%"
+      >
+        <br />
+        <h5 style="color: red" class="my-4">CLIENT'S FEEDBACK</h5>
+        <h2>PEOPLE SAY'S ABOUT US !</h2>
+        <br />
+        <br />
+
+        <p style="text-align: left">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam,quis nostrud exercitation
+        </p>
+
+        <p style="text-align: left">
+          <b style="color: red">Jannat Tumpa </b
+          ><span style="color: rgb(209, 209, 209)">
+            - COO,AMERIMAR ENTERPRISES,INC</span
+          >
+        </p>
+      </div>
+    </div>
+    <br />
+    <div class="bottom-container">
+      <a class="footer-link" href=""><img src="./image/11.jpg" alt="" /></a>
+      <a class="footer-link" href=""><img src="./image/12.jpg" alt="" /></a>
+      <a class="footer-link" href=""><img src="./image/13.jpg" alt="" /></a>
+      <a class="footer-link" href=""><img src="./image/14.jpg" alt="" /></a>
+      <a class="footer-link" href=""><img src="./image/15.jpg" alt="" /></a>
+      <a class="footer-link" href=""><img src="./image/16.jpg" alt="" /></a>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
